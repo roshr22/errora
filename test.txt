@@ -1,0 +1,9 @@
+python src/main.py --file test.py --error "$(cat <<'EOF'
+Traceback (most recent call last):
+  File "C:\Users\Roshini\Documents\Projects\errora\test.py", line 38, in <module>
+    main()
+  File "C:\Users\Roshini\Documents\Projects\errora\test.py", line 26, in main
+    Person('Charlie')  # Hidden error: Missing 'age' argument
+TypeError: Person.__init__() missing 1 required positional argument: 'age'
+EOF
+)"

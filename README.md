@@ -19,6 +19,3 @@ Errora is a powerful VS Code extension designed to provide developers with intel
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Note
-This is a prototype to demonstrate the concept of **Errora**. The actual VS Code extension is under development.
